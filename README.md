@@ -30,6 +30,18 @@ In Alfred, type `cfn`, <kbd>Enter</kbd>, and your query.
 
 Select an item and press <kbd>Enter</kbd> open documentation in browser.<br>
 Press <kbd>Shift</kbd> to view the link in Quick Look.
+## To update to latest aws-sdk
+
+## Updating CloudFormation Data
+
+```sh
+pushd data/aws-sdk
+git pull
+popd
+npm run make
+```
+
+
 
 ---
 
