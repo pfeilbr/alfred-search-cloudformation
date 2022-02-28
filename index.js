@@ -10,7 +10,7 @@ const items = data.map((e) => {
   return {
     title: e.title,
     // autocomplete: e.title,
-    match: e.title.replace("::", " "),
+    match: e.title.replaceAll("::", " ").toLowerCase(),
     subtitle: e.url,
     arg: e.url,
     quicklookurl: e.url,

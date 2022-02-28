@@ -28,6 +28,18 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html"
   },
   {
+    "title": "AWS::AmazonMQ::Broker",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-broker.html"
+  },
+  {
+    "title": "AWS::AmazonMQ::Configuration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-configuration.html"
+  },
+  {
+    "title": "AWS::AmazonMQ::ConfigurationAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amazonmq-configurationassociation.html"
+  },
+  {
     "title": "AWS::Amplify::App",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html"
   },
@@ -38,6 +50,14 @@
   {
     "title": "AWS::Amplify::Domain",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html"
+  },
+  {
+    "title": "AWS::AmplifyUIBuilder::Component",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplifyuibuilder-component.html"
+  },
+  {
+    "title": "AWS::AmplifyUIBuilder::Theme",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplifyuibuilder-theme.html"
   },
   {
     "title": "AWS::ApiGateway::Account",
@@ -60,12 +80,24 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-clientcertificate.html"
   },
   {
+    "title": "AWS::ApiGateway::Deployment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html"
+  },
+  {
+    "title": "AWS::ApiGateway::DocumentationPart",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html"
+  },
+  {
     "title": "AWS::ApiGateway::DocumentationVersion",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationversion.html"
   },
   {
     "title": "AWS::ApiGateway::DomainName",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html"
+  },
+  {
+    "title": "AWS::ApiGateway::GatewayResponse",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html"
   },
   {
     "title": "AWS::ApiGateway::Method",
@@ -84,6 +116,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-resource.html"
   },
   {
+    "title": "AWS::ApiGateway::RestApi",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html"
+  },
+  {
     "title": "AWS::ApiGateway::Stage",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html"
   },
@@ -96,6 +132,86 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplankey.html"
   },
   {
+    "title": "AWS::ApiGateway::VpcLink",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-vpclink.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Api",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::ApiGatewayManagedOverrides",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::ApiMapping",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apimapping.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Authorizer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Deployment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-deployment.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::DomainName",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Integration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::IntegrationResponse",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Model",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Route",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::RouteResponse",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::Stage",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html"
+  },
+  {
+    "title": "AWS::ApiGatewayV2::VpcLink",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-vpclink.html"
+  },
+  {
+    "title": "AWS::AppConfig::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-application.html"
+  },
+  {
+    "title": "AWS::AppConfig::ConfigurationProfile",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html"
+  },
+  {
+    "title": "AWS::AppConfig::Deployment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-deployment.html"
+  },
+  {
+    "title": "AWS::AppConfig::DeploymentStrategy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-deploymentstrategy.html"
+  },
+  {
+    "title": "AWS::AppConfig::Environment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-environment.html"
+  },
+  {
+    "title": "AWS::AppConfig::HostedConfigurationVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-hostedconfigurationversion.html"
+  },
+  {
     "title": "AWS::AppFlow::ConnectorProfile",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html"
   },
@@ -104,21 +220,140 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html"
   },
   {
+    "title": "AWS::AppIntegrations::DataIntegration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appintegrations-dataintegration.html"
+  },
+  {
     "title": "AWS::AppIntegrations::EventIntegration",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appintegrations-eventintegration.html"
+  },
+  {
+    "title": "AWS::AppMesh::GatewayRoute",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-gatewayroute.html"
+  },
+  {
+    "title": "AWS::AppMesh::Mesh",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-mesh.html"
+  },
+  {
+    "title": "AWS::AppMesh::Route",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html"
+  },
+  {
+    "title": "AWS::AppMesh::VirtualGateway",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualgateway.html"
+  },
+  {
+    "title": "AWS::AppMesh::VirtualNode",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualnode.html"
+  },
+  {
+    "title": "AWS::AppMesh::VirtualRouter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualrouter.html"
+  },
+  {
+    "title": "AWS::AppMesh::VirtualService",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html"
   },
   {
     "title": "AWS::AppRunner::Service",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html"
   },
   {
-    "title": "AWS::AppStream::AppBlock"
+    "title": "AWS::AppRunner::VpcConnector",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-vpcconnector.html"
   },
   {
-    "title": "AWS::AppStream::Application"
+    "title": "AWS::AppStream::AppBlock",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-appblock.html"
   },
   {
-    "title": "AWS::AppStream::ApplicationFleetAssociation"
+    "title": "AWS::AppStream::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-application.html"
+  },
+  {
+    "title": "AWS::AppStream::ApplicationEntitlementAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-applicationentitlementassociation.html"
+  },
+  {
+    "title": "AWS::AppStream::ApplicationFleetAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-applicationfleetassociation.html"
+  },
+  {
+    "title": "AWS::AppStream::DirectoryConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html"
+  },
+  {
+    "title": "AWS::AppStream::Entitlement",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html"
+  },
+  {
+    "title": "AWS::AppStream::Fleet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html"
+  },
+  {
+    "title": "AWS::AppStream::ImageBuilder",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html"
+  },
+  {
+    "title": "AWS::AppStream::Stack",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html"
+  },
+  {
+    "title": "AWS::AppStream::StackFleetAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stackfleetassociation.html"
+  },
+  {
+    "title": "AWS::AppStream::StackUserAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stackuserassociation.html"
+  },
+  {
+    "title": "AWS::AppStream::User",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-user.html"
+  },
+  {
+    "title": "AWS::AppSync::ApiCache",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html"
+  },
+  {
+    "title": "AWS::AppSync::ApiKey",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apikey.html"
+  },
+  {
+    "title": "AWS::AppSync::DataSource",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html"
+  },
+  {
+    "title": "AWS::AppSync::DomainName",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-domainname.html"
+  },
+  {
+    "title": "AWS::AppSync::DomainNameApiAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-domainnameapiassociation.html"
+  },
+  {
+    "title": "AWS::AppSync::FunctionConfiguration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-functionconfiguration.html"
+  },
+  {
+    "title": "AWS::AppSync::GraphQLApi",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html"
+  },
+  {
+    "title": "AWS::AppSync::GraphQLSchema",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlschema.html"
+  },
+  {
+    "title": "AWS::AppSync::Resolver",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html"
+  },
+  {
+    "title": "AWS::ApplicationAutoScaling::ScalableTarget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html"
+  },
+  {
+    "title": "AWS::ApplicationAutoScaling::ScalingPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html"
   },
   {
     "title": "AWS::ApplicationInsights::Application",
@@ -145,16 +380,32 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html"
   },
   {
+    "title": "AWS::AutoScaling::AutoScalingGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html"
+  },
+  {
     "title": "AWS::AutoScaling::LaunchConfiguration",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html"
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-launchconfiguration.html"
   },
   {
     "title": "AWS::AutoScaling::LifecycleHook",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-lifecyclehook.html"
   },
   {
+    "title": "AWS::AutoScaling::ScalingPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html"
+  },
+  {
+    "title": "AWS::AutoScaling::ScheduledAction",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-scheduledaction.html"
+  },
+  {
     "title": "AWS::AutoScaling::WarmPool",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscaling-warmpool.html"
+  },
+  {
+    "title": "AWS::AutoScalingPlans::ScalingPlan",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html"
   },
   {
     "title": "AWS::Backup::BackupPlan",
@@ -177,16 +428,44 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html"
   },
   {
+    "title": "AWS::Batch::ComputeEnvironment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html"
+  },
+  {
+    "title": "AWS::Batch::JobDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html"
+  },
+  {
+    "title": "AWS::Batch::JobQueue",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html"
+  },
+  {
     "title": "AWS::Batch::SchedulingPolicy",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html"
+  },
+  {
+    "title": "AWS::Budgets::Budget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html"
   },
   {
     "title": "AWS::Budgets::BudgetsAction",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html"
   },
   {
+    "title": "AWS::CE::AnomalyMonitor",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalymonitor.html"
+  },
+  {
+    "title": "AWS::CE::AnomalySubscription",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalysubscription.html"
+  },
+  {
     "title": "AWS::CE::CostCategory",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-costcategory.html"
+  },
+  {
+    "title": "AWS::CUR::ReportDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html"
   },
   {
     "title": "AWS::Cassandra::Keyspace",
@@ -201,8 +480,36 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-account.html"
   },
   {
+    "title": "AWS::CertificateManager::Certificate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html"
+  },
+  {
     "title": "AWS::Chatbot::SlackChannelConfiguration",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html"
+  },
+  {
+    "title": "AWS::Cloud9::EnvironmentEC2",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloud9-environmentec2.html"
+  },
+  {
+    "title": "AWS::CloudFormation::CustomResource",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html"
+  },
+  {
+    "title": "AWS::CloudFormation::HookDefaultVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-hookdefaultversion.html"
+  },
+  {
+    "title": "AWS::CloudFormation::HookTypeConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-hooktypeconfig.html"
+  },
+  {
+    "title": "AWS::CloudFormation::HookVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-hookversion.html"
+  },
+  {
+    "title": "AWS::CloudFormation::Macro",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-macro.html"
   },
   {
     "title": "AWS::CloudFormation::ModuleDefaultVersion",
@@ -229,12 +536,24 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html"
   },
   {
+    "title": "AWS::CloudFormation::Stack",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html"
+  },
+  {
     "title": "AWS::CloudFormation::StackSet",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html"
   },
   {
     "title": "AWS::CloudFormation::TypeActivation",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-typeactivation.html"
+  },
+  {
+    "title": "AWS::CloudFormation::WaitCondition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waitcondition.html"
+  },
+  {
+    "title": "AWS::CloudFormation::WaitConditionHandle",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waitconditionhandle.html"
   },
   {
     "title": "AWS::CloudFront::CachePolicy",
@@ -273,12 +592,32 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-responseheaderspolicy.html"
   },
   {
+    "title": "AWS::CloudFront::StreamingDistribution",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-streamingdistribution.html"
+  },
+  {
     "title": "AWS::CloudTrail::Trail",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html"
   },
   {
+    "title": "AWS::CloudWatch::Alarm",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html"
+  },
+  {
+    "title": "AWS::CloudWatch::AnomalyDetector",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html"
+  },
+  {
     "title": "AWS::CloudWatch::CompositeAlarm",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html"
+  },
+  {
+    "title": "AWS::CloudWatch::Dashboard",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-dashboard.html"
+  },
+  {
+    "title": "AWS::CloudWatch::InsightRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-insightrule.html"
   },
   {
     "title": "AWS::CloudWatch::MetricStream",
@@ -293,12 +632,56 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html"
   },
   {
+    "title": "AWS::CodeBuild::Project",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html"
+  },
+  {
+    "title": "AWS::CodeBuild::ReportGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-reportgroup.html"
+  },
+  {
+    "title": "AWS::CodeBuild::SourceCredential",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-sourcecredential.html"
+  },
+  {
+    "title": "AWS::CodeCommit::Repository",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html"
+  },
+  {
+    "title": "AWS::CodeDeploy::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-application.html"
+  },
+  {
+    "title": "AWS::CodeDeploy::DeploymentConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html"
+  },
+  {
+    "title": "AWS::CodeDeploy::DeploymentGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html"
+  },
+  {
     "title": "AWS::CodeGuruProfiler::ProfilingGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html"
   },
   {
     "title": "AWS::CodeGuruReviewer::RepositoryAssociation",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codegurureviewer-repositoryassociation.html"
+  },
+  {
+    "title": "AWS::CodePipeline::CustomActionType",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html"
+  },
+  {
+    "title": "AWS::CodePipeline::Pipeline",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html"
+  },
+  {
+    "title": "AWS::CodePipeline::Webhook",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html"
+  },
+  {
+    "title": "AWS::CodeStar::GitHubRepository",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestar-githubrepository.html"
   },
   {
     "title": "AWS::CodeStarConnections::Connection",
@@ -309,24 +692,100 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html"
   },
   {
+    "title": "AWS::Cognito::IdentityPool",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html"
+  },
+  {
+    "title": "AWS::Cognito::IdentityPoolRoleAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPool",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolClient",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolDomain",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooldomain.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolgroup.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolIdentityProvider",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolResourceServer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolresourceserver.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolRiskConfigurationAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolUICustomizationAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluicustomizationattachment.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolUser",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html"
+  },
+  {
+    "title": "AWS::Cognito::UserPoolUserToGroupAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolusertogroupattachment.html"
+  },
+  {
     "title": "AWS::Config::AggregationAuthorization",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-aggregationauthorization.html"
+  },
+  {
+    "title": "AWS::Config::ConfigRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html"
   },
   {
     "title": "AWS::Config::ConfigurationAggregator",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html"
   },
   {
+    "title": "AWS::Config::ConfigurationRecorder",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationrecorder.html"
+  },
+  {
     "title": "AWS::Config::ConformancePack",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-conformancepack.html"
+  },
+  {
+    "title": "AWS::Config::DeliveryChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html"
+  },
+  {
+    "title": "AWS::Config::OrganizationConfigRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html"
   },
   {
     "title": "AWS::Config::OrganizationConformancePack",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html"
   },
   {
+    "title": "AWS::Config::RemediationConfiguration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html"
+  },
+  {
     "title": "AWS::Config::StoredQuery",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-storedquery.html"
+  },
+  {
+    "title": "AWS::Connect::ContactFlow",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-contactflow.html"
+  },
+  {
+    "title": "AWS::Connect::ContactFlowModule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-contactflowmodule.html"
   },
   {
     "title": "AWS::Connect::HoursOfOperation",
@@ -357,6 +816,46 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html"
   },
   {
+    "title": "AWS::DAX::Cluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html"
+  },
+  {
+    "title": "AWS::DAX::ParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-parametergroup.html"
+  },
+  {
+    "title": "AWS::DAX::SubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-subnetgroup.html"
+  },
+  {
+    "title": "AWS::DLM::LifecyclePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dlm-lifecyclepolicy.html"
+  },
+  {
+    "title": "AWS::DMS::Certificate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-certificate.html"
+  },
+  {
+    "title": "AWS::DMS::Endpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html"
+  },
+  {
+    "title": "AWS::DMS::EventSubscription",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html"
+  },
+  {
+    "title": "AWS::DMS::ReplicationInstance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html"
+  },
+  {
+    "title": "AWS::DMS::ReplicationSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationsubnetgroup.html"
+  },
+  {
+    "title": "AWS::DMS::ReplicationTask",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationtask.html"
+  },
+  {
     "title": "AWS::DataBrew::Dataset",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html"
   },
@@ -373,8 +872,16 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-recipe.html"
   },
   {
+    "title": "AWS::DataBrew::Ruleset",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-ruleset.html"
+  },
+  {
     "title": "AWS::DataBrew::Schedule",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html"
+  },
+  {
+    "title": "AWS::DataPipeline::Pipeline",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html"
   },
   {
     "title": "AWS::DataSync::Agent",
@@ -383,6 +890,10 @@
   {
     "title": "AWS::DataSync::LocationEFS",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationefs.html"
+  },
+  {
+    "title": "AWS::DataSync::LocationFSxLustre",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxlustre.html"
   },
   {
     "title": "AWS::DataSync::LocationFSxWindows",
@@ -429,32 +940,40 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devopsguru-resourcecollection.html"
   },
   {
-    "title": "AWS::DeviceFarm::DevicePool",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-devicepool.html"
+    "title": "AWS::DirectoryService::MicrosoftAD",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html"
   },
   {
-    "title": "AWS::DeviceFarm::InstanceProfile",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-instanceprofile.html"
+    "title": "AWS::DirectoryService::SimpleAD",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-simplead.html"
   },
   {
-    "title": "AWS::DeviceFarm::NetworkProfile",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-networkprofile.html"
+    "title": "AWS::DocDB::DBCluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbcluster.html"
   },
   {
-    "title": "AWS::DeviceFarm::Project",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-project.html"
+    "title": "AWS::DocDB::DBClusterParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbclusterparametergroup.html"
   },
   {
-    "title": "AWS::DeviceFarm::TestGridProject",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-testgridproject.html"
+    "title": "AWS::DocDB::DBInstance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbinstance.html"
   },
   {
-    "title": "AWS::DeviceFarm::VPCEConfiguration",
-    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-devicefarm-vpceconfiguration.html"
+    "title": "AWS::DocDB::DBSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbsubnetgroup.html"
   },
   {
     "title": "AWS::DynamoDB::GlobalTable",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html"
+  },
+  {
+    "title": "AWS::DynamoDB::Table",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html"
+  },
+  {
+    "title": "AWS::EC2::CapacityReservation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-capacityreservation.html"
   },
   {
     "title": "AWS::EC2::CapacityReservationFleet",
@@ -465,12 +984,40 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-carriergateway.html"
   },
   {
+    "title": "AWS::EC2::ClientVpnAuthorizationRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnauthorizationrule.html"
+  },
+  {
+    "title": "AWS::EC2::ClientVpnEndpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html"
+  },
+  {
+    "title": "AWS::EC2::ClientVpnRoute",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnroute.html"
+  },
+  {
+    "title": "AWS::EC2::ClientVpnTargetNetworkAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpntargetnetworkassociation.html"
+  },
+  {
+    "title": "AWS::EC2::CustomerGateway",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html"
+  },
+  {
     "title": "AWS::EC2::DHCPOptions",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html"
   },
   {
     "title": "AWS::EC2::EC2Fleet",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html"
+  },
+  {
+    "title": "AWS::EC2::EIP",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html"
+  },
+  {
+    "title": "AWS::EC2::EIPAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip-association.html"
   },
   {
     "title": "AWS::EC2::EgressOnlyInternetGateway",
@@ -493,8 +1040,32 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html"
   },
   {
+    "title": "AWS::EC2::IPAM",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ipam.html"
+  },
+  {
+    "title": "AWS::EC2::IPAMAllocation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ipamallocation.html"
+  },
+  {
+    "title": "AWS::EC2::IPAMPool",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ipampool.html"
+  },
+  {
+    "title": "AWS::EC2::IPAMScope",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ipamscope.html"
+  },
+  {
+    "title": "AWS::EC2::Instance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html"
+  },
+  {
     "title": "AWS::EC2::InternetGateway",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-internetgateway.html"
+  },
+  {
+    "title": "AWS::EC2::LaunchTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html"
   },
   {
     "title": "AWS::EC2::LocalGatewayRoute",
@@ -505,8 +1076,24 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-localgatewayroutetablevpcassociation.html"
   },
   {
+    "title": "AWS::EC2::NatGateway",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-natgateway.html"
+  },
+  {
     "title": "AWS::EC2::NetworkAcl",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkacl.html"
+  },
+  {
+    "title": "AWS::EC2::NetworkAclEntry",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkaclentry.html"
+  },
+  {
+    "title": "AWS::EC2::NetworkInsightsAccessScope",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightsaccessscope.html"
+  },
+  {
+    "title": "AWS::EC2::NetworkInsightsAccessScopeAnalysis",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightsaccessscopeanalysis.html"
   },
   {
     "title": "AWS::EC2::NetworkInsightsAnalysis",
@@ -517,12 +1104,44 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightspath.html"
   },
   {
+    "title": "AWS::EC2::NetworkInterface",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinterface.html"
+  },
+  {
+    "title": "AWS::EC2::NetworkInterfaceAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface-attachment.html"
+  },
+  {
+    "title": "AWS::EC2::NetworkInterfacePermission",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinterfacepermission.html"
+  },
+  {
+    "title": "AWS::EC2::PlacementGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-placementgroup.html"
+  },
+  {
     "title": "AWS::EC2::PrefixList",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-prefixlist.html"
   },
   {
+    "title": "AWS::EC2::Route",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html"
+  },
+  {
     "title": "AWS::EC2::RouteTable",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-routetable.html"
+  },
+  {
+    "title": "AWS::EC2::SecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html"
+  },
+  {
+    "title": "AWS::EC2::SecurityGroupEgress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html"
+  },
+  {
+    "title": "AWS::EC2::SecurityGroupIngress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group-ingress.html"
   },
   {
     "title": "AWS::EC2::SpotFleet",
@@ -533,12 +1152,40 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html"
   },
   {
+    "title": "AWS::EC2::SubnetCidrBlock",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnetcidrblock.html"
+  },
+  {
     "title": "AWS::EC2::SubnetNetworkAclAssociation",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet-network-acl-assoc.html"
   },
   {
+    "title": "AWS::EC2::SubnetRouteTableAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnetroutetableassociation.html"
+  },
+  {
+    "title": "AWS::EC2::TrafficMirrorFilter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html"
+  },
+  {
+    "title": "AWS::EC2::TrafficMirrorFilterRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilterrule.html"
+  },
+  {
+    "title": "AWS::EC2::TrafficMirrorSession",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorsession.html"
+  },
+  {
+    "title": "AWS::EC2::TrafficMirrorTarget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrortarget.html"
+  },
+  {
     "title": "AWS::EC2::TransitGateway",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgateway.html"
+  },
+  {
+    "title": "AWS::EC2::TransitGatewayAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayattachment.html"
   },
   {
     "title": "AWS::EC2::TransitGatewayConnect",
@@ -565,12 +1212,92 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewaypeeringattachment.html"
   },
   {
+    "title": "AWS::EC2::TransitGatewayRoute",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayroute.html"
+  },
+  {
+    "title": "AWS::EC2::TransitGatewayRouteTable",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayroutetable.html"
+  },
+  {
+    "title": "AWS::EC2::TransitGatewayRouteTableAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayroutetableassociation.html"
+  },
+  {
+    "title": "AWS::EC2::TransitGatewayRouteTablePropagation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayroutetablepropagation.html"
+  },
+  {
     "title": "AWS::EC2::TransitGatewayVpcAttachment",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html"
   },
   {
     "title": "AWS::EC2::VPC",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html"
+  },
+  {
+    "title": "AWS::EC2::VPCCidrBlock",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpccidrblock.html"
+  },
+  {
+    "title": "AWS::EC2::VPCDHCPOptionsAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcdhcpoptionsassociation.html"
+  },
+  {
+    "title": "AWS::EC2::VPCEndpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html"
+  },
+  {
+    "title": "AWS::EC2::VPCEndpointConnectionNotification",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html"
+  },
+  {
+    "title": "AWS::EC2::VPCEndpointService",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html"
+  },
+  {
+    "title": "AWS::EC2::VPCEndpointServicePermissions",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservicepermissions.html"
+  },
+  {
+    "title": "AWS::EC2::VPCGatewayAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc-gateway-attachment.html"
+  },
+  {
+    "title": "AWS::EC2::VPCPeeringConnection",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html"
+  },
+  {
+    "title": "AWS::EC2::VPNConnection",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html"
+  },
+  {
+    "title": "AWS::EC2::VPNConnectionRoute",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection-route.html"
+  },
+  {
+    "title": "AWS::EC2::VPNGateway",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gateway.html"
+  },
+  {
+    "title": "AWS::EC2::VPNGatewayRoutePropagation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpngatewayroutepropagation.html"
+  },
+  {
+    "title": "AWS::EC2::Volume",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html"
+  },
+  {
+    "title": "AWS::EC2::VolumeAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volumeattachment.html"
+  },
+  {
+    "title": "AWS::ECR::PublicRepository",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html"
+  },
+  {
+    "title": "AWS::ECR::PullThroughCacheRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-pullthroughcacherule.html"
   },
   {
     "title": "AWS::ECR::RegistryPolicy",
@@ -637,6 +1364,30 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html"
   },
   {
+    "title": "AWS::EKS::Nodegroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html"
+  },
+  {
+    "title": "AWS::EMR::Cluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html"
+  },
+  {
+    "title": "AWS::EMR::InstanceFleetConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html"
+  },
+  {
+    "title": "AWS::EMR::InstanceGroupConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html"
+  },
+  {
+    "title": "AWS::EMR::SecurityConfiguration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-securityconfiguration.html"
+  },
+  {
+    "title": "AWS::EMR::Step",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html"
+  },
+  {
     "title": "AWS::EMR::Studio",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-studio.html"
   },
@@ -649,8 +1400,32 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emrcontainers-virtualcluster.html"
   },
   {
+    "title": "AWS::ElastiCache::CacheCluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html"
+  },
+  {
     "title": "AWS::ElastiCache::GlobalReplicationGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html"
+  },
+  {
+    "title": "AWS::ElastiCache::ParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html"
+  },
+  {
+    "title": "AWS::ElastiCache::ReplicationGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html"
+  },
+  {
+    "title": "AWS::ElastiCache::SecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-security-group.html"
+  },
+  {
+    "title": "AWS::ElastiCache::SecurityGroupIngress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-security-group-ingress.html"
+  },
+  {
+    "title": "AWS::ElastiCache::SubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-subnetgroup.html"
   },
   {
     "title": "AWS::ElastiCache::User",
@@ -661,16 +1436,64 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-usergroup.html"
   },
   {
+    "title": "AWS::ElasticBeanstalk::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html"
+  },
+  {
+    "title": "AWS::ElasticBeanstalk::ApplicationVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-version.html"
+  },
+  {
+    "title": "AWS::ElasticBeanstalk::ConfigurationTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticbeanstalk-configurationtemplate.html"
+  },
+  {
+    "title": "AWS::ElasticBeanstalk::Environment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html"
+  },
+  {
+    "title": "AWS::ElasticLoadBalancing::LoadBalancer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb.html"
+  },
+  {
     "title": "AWS::ElasticLoadBalancingV2::Listener",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html"
+  },
+  {
+    "title": "AWS::ElasticLoadBalancingV2::ListenerCertificate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenercertificate.html"
   },
   {
     "title": "AWS::ElasticLoadBalancingV2::ListenerRule",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html"
   },
   {
+    "title": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html"
+  },
+  {
+    "title": "AWS::ElasticLoadBalancingV2::TargetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html"
+  },
+  {
+    "title": "AWS::Elasticsearch::Domain",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticsearch-domain.html"
+  },
+  {
+    "title": "AWS::EventSchemas::Discoverer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-discoverer.html"
+  },
+  {
+    "title": "AWS::EventSchemas::Registry",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-registry.html"
+  },
+  {
     "title": "AWS::EventSchemas::RegistryPolicy",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-registrypolicy.html"
+  },
+  {
+    "title": "AWS::EventSchemas::Schema",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-schema.html"
   },
   {
     "title": "AWS::Events::ApiDestination",
@@ -685,6 +1508,34 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html"
   },
   {
+    "title": "AWS::Events::EventBus",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbus.html"
+  },
+  {
+    "title": "AWS::Events::EventBusPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html"
+  },
+  {
+    "title": "AWS::Events::Rule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html"
+  },
+  {
+    "title": "AWS::Evidently::Experiment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-experiment.html"
+  },
+  {
+    "title": "AWS::Evidently::Feature",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-feature.html"
+  },
+  {
+    "title": "AWS::Evidently::Launch",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-launch.html"
+  },
+  {
+    "title": "AWS::Evidently::Project",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-project.html"
+  },
+  {
     "title": "AWS::FIS::ExperimentTemplate",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html"
   },
@@ -697,8 +1548,20 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html"
   },
   {
+    "title": "AWS::FSx::FileSystem",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fsx-filesystem.html"
+  },
+  {
     "title": "AWS::FinSpace::Environment",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-finspace-environment.html"
+  },
+  {
+    "title": "AWS::Forecast::Dataset",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-dataset.html"
+  },
+  {
+    "title": "AWS::Forecast::DatasetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html"
   },
   {
     "title": "AWS::FraudDetector::Detector",
@@ -729,12 +1592,32 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-alias.html"
   },
   {
+    "title": "AWS::GameLift::Build",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-build.html"
+  },
+  {
     "title": "AWS::GameLift::Fleet",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html"
   },
   {
     "title": "AWS::GameLift::GameServerGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html"
+  },
+  {
+    "title": "AWS::GameLift::GameSessionQueue",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html"
+  },
+  {
+    "title": "AWS::GameLift::MatchmakingConfiguration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html"
+  },
+  {
+    "title": "AWS::GameLift::MatchmakingRuleSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingruleset.html"
+  },
+  {
+    "title": "AWS::GameLift::Script",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-script.html"
   },
   {
     "title": "AWS::GlobalAccelerator::Accelerator",
@@ -747,6 +1630,42 @@
   {
     "title": "AWS::GlobalAccelerator::Listener",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html"
+  },
+  {
+    "title": "AWS::Glue::Classifier",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html"
+  },
+  {
+    "title": "AWS::Glue::Connection",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-connection.html"
+  },
+  {
+    "title": "AWS::Glue::Crawler",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html"
+  },
+  {
+    "title": "AWS::Glue::DataCatalogEncryptionSettings",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-datacatalogencryptionsettings.html"
+  },
+  {
+    "title": "AWS::Glue::Database",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-database.html"
+  },
+  {
+    "title": "AWS::Glue::DevEndpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html"
+  },
+  {
+    "title": "AWS::Glue::Job",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html"
+  },
+  {
+    "title": "AWS::Glue::MLTransform",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html"
+  },
+  {
+    "title": "AWS::Glue::Partition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html"
   },
   {
     "title": "AWS::Glue::Registry",
@@ -765,6 +1684,86 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schemaversionmetadata.html"
   },
   {
+    "title": "AWS::Glue::SecurityConfiguration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-securityconfiguration.html"
+  },
+  {
+    "title": "AWS::Glue::Table",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html"
+  },
+  {
+    "title": "AWS::Glue::Trigger",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-trigger.html"
+  },
+  {
+    "title": "AWS::Glue::Workflow",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-workflow.html"
+  },
+  {
+    "title": "AWS::Greengrass::ConnectorDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-connectordefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::ConnectorDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-connectordefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::CoreDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-coredefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::CoreDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-coredefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::DeviceDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-devicedefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::DeviceDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-devicedefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::FunctionDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::FunctionDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::Group",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-group.html"
+  },
+  {
+    "title": "AWS::Greengrass::GroupVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-groupversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::LoggerDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-loggerdefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::LoggerDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-loggerdefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::ResourceDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::ResourceDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinitionversion.html"
+  },
+  {
+    "title": "AWS::Greengrass::SubscriptionDefinition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-subscriptiondefinition.html"
+  },
+  {
+    "title": "AWS::Greengrass::SubscriptionDefinitionVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-subscriptiondefinitionversion.html"
+  },
+  {
     "title": "AWS::GreengrassV2::ComponentVersion",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrassv2-componentversion.html"
   },
@@ -781,12 +1780,56 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html"
   },
   {
+    "title": "AWS::GuardDuty::Detector",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-detector.html"
+  },
+  {
+    "title": "AWS::GuardDuty::Filter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-filter.html"
+  },
+  {
+    "title": "AWS::GuardDuty::IPSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-ipset.html"
+  },
+  {
+    "title": "AWS::GuardDuty::Master",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-master.html"
+  },
+  {
+    "title": "AWS::GuardDuty::Member",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html"
+  },
+  {
+    "title": "AWS::GuardDuty::ThreatIntelSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-threatintelset.html"
+  },
+  {
     "title": "AWS::HealthLake::FHIRDatastore",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html"
   },
   {
+    "title": "AWS::IAM::AccessKey",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-accesskey.html"
+  },
+  {
+    "title": "AWS::IAM::Group",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html"
+  },
+  {
+    "title": "AWS::IAM::InstanceProfile",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html"
+  },
+  {
+    "title": "AWS::IAM::ManagedPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html"
+  },
+  {
     "title": "AWS::IAM::OIDCProvider",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html"
+  },
+  {
+    "title": "AWS::IAM::Policy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html"
   },
   {
     "title": "AWS::IAM::Role",
@@ -799,6 +1842,18 @@
   {
     "title": "AWS::IAM::ServerCertificate",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-servercertificate.html"
+  },
+  {
+    "title": "AWS::IAM::ServiceLinkedRole",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-servicelinkedrole.html"
+  },
+  {
+    "title": "AWS::IAM::User",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html"
+  },
+  {
+    "title": "AWS::IAM::UserToGroupAddition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-addusertogroup.html"
   },
   {
     "title": "AWS::IAM::VirtualMFADevice",
@@ -849,6 +1904,22 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html"
   },
   {
+    "title": "AWS::Inspector::AssessmentTarget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttarget.html"
+  },
+  {
+    "title": "AWS::Inspector::AssessmentTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html"
+  },
+  {
+    "title": "AWS::Inspector::ResourceGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-resourcegroup.html"
+  },
+  {
+    "title": "AWS::InspectorV2::Filter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html"
+  },
+  {
     "title": "AWS::IoT::AccountAuditConfiguration",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html"
   },
@@ -889,6 +1960,14 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-mitigationaction.html"
   },
   {
+    "title": "AWS::IoT::Policy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-policy.html"
+  },
+  {
+    "title": "AWS::IoT::PolicyPrincipalAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-policyprincipalattachment.html"
+  },
+  {
     "title": "AWS::IoT::ProvisioningTemplate",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html"
   },
@@ -905,12 +1984,48 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html"
   },
   {
+    "title": "AWS::IoT::Thing",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-thing.html"
+  },
+  {
+    "title": "AWS::IoT::ThingPrincipalAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-thingprincipalattachment.html"
+  },
+  {
     "title": "AWS::IoT::TopicRule",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicrule.html"
   },
   {
     "title": "AWS::IoT::TopicRuleDestination",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html"
+  },
+  {
+    "title": "AWS::IoT1Click::Device",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-device.html"
+  },
+  {
+    "title": "AWS::IoT1Click::Placement",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html"
+  },
+  {
+    "title": "AWS::IoT1Click::Project",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html"
+  },
+  {
+    "title": "AWS::IoTAnalytics::Channel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html"
+  },
+  {
+    "title": "AWS::IoTAnalytics::Dataset",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html"
+  },
+  {
+    "title": "AWS::IoTAnalytics::Datastore",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html"
+  },
+  {
+    "title": "AWS::IoTAnalytics::Pipeline",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html"
   },
   {
     "title": "AWS::IoTCoreDeviceAdvisor::SuiteDefinition",
@@ -957,6 +2072,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html"
   },
   {
+    "title": "AWS::IoTThingsGraph::FlowTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotthingsgraph-flowtemplate.html"
+  },
+  {
     "title": "AWS::IoTWireless::Destination",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-destination.html"
   },
@@ -971,6 +2090,10 @@
   {
     "title": "AWS::IoTWireless::MulticastGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-multicastgroup.html"
+  },
+  {
+    "title": "AWS::IoTWireless::PartnerAccount",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html"
   },
   {
     "title": "AWS::IoTWireless::ServiceProfile",
@@ -1001,6 +2124,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html"
   },
   {
+    "title": "AWS::KafkaConnect::Connector",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kafkaconnect-connector.html"
+  },
+  {
     "title": "AWS::Kendra::DataSource",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-datasource.html"
   },
@@ -1017,12 +2144,72 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html"
   },
   {
+    "title": "AWS::Kinesis::StreamConsumer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-streamconsumer.html"
+  },
+  {
+    "title": "AWS::KinesisAnalytics::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-application.html"
+  },
+  {
+    "title": "AWS::KinesisAnalytics::ApplicationOutput",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-applicationoutput.html"
+  },
+  {
+    "title": "AWS::KinesisAnalytics::ApplicationReferenceDataSource",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-applicationreferencedatasource.html"
+  },
+  {
+    "title": "AWS::KinesisAnalyticsV2::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html"
+  },
+  {
+    "title": "AWS::KinesisAnalyticsV2::ApplicationCloudWatchLoggingOption",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationcloudwatchloggingoption.html"
+  },
+  {
+    "title": "AWS::KinesisAnalyticsV2::ApplicationOutput",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationoutput.html"
+  },
+  {
+    "title": "AWS::KinesisAnalyticsV2::ApplicationReferenceDataSource",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationreferencedatasource.html"
+  },
+  {
     "title": "AWS::KinesisFirehose::DeliveryStream",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisfirehose-deliverystream.html"
   },
   {
+    "title": "AWS::KinesisVideo::SignalingChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisvideo-signalingchannel.html"
+  },
+  {
+    "title": "AWS::KinesisVideo::Stream",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisvideo-stream.html"
+  },
+  {
+    "title": "AWS::LakeFormation::DataLakeSettings",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html"
+  },
+  {
+    "title": "AWS::LakeFormation::Permissions",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html"
+  },
+  {
+    "title": "AWS::LakeFormation::Resource",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-resource.html"
+  },
+  {
+    "title": "AWS::Lambda::Alias",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html"
+  },
+  {
     "title": "AWS::Lambda::CodeSigningConfig",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html"
+  },
+  {
+    "title": "AWS::Lambda::EventInvokeConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html"
   },
   {
     "title": "AWS::Lambda::EventSourceMapping",
@@ -1033,12 +2220,60 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html"
   },
   {
+    "title": "AWS::Lambda::LayerVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html"
+  },
+  {
+    "title": "AWS::Lambda::LayerVersionPermission",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversionpermission.html"
+  },
+  {
+    "title": "AWS::Lambda::Permission",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html"
+  },
+  {
+    "title": "AWS::Lambda::Version",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html"
+  },
+  {
+    "title": "AWS::Lex::Bot",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-bot.html"
+  },
+  {
+    "title": "AWS::Lex::BotAlias",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-botalias.html"
+  },
+  {
+    "title": "AWS::Lex::BotVersion",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-botversion.html"
+  },
+  {
+    "title": "AWS::Lex::ResourcePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lex-resourcepolicy.html"
+  },
+  {
     "title": "AWS::LicenseManager::Grant",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html"
   },
   {
     "title": "AWS::LicenseManager::License",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html"
+  },
+  {
+    "title": "AWS::Lightsail::Alarm",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-alarm.html"
+  },
+  {
+    "title": "AWS::Lightsail::Bucket",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-bucket.html"
+  },
+  {
+    "title": "AWS::Lightsail::Certificate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-certificate.html"
+  },
+  {
+    "title": "AWS::Lightsail::Container",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-container.html"
   },
   {
     "title": "AWS::Lightsail::Database",
@@ -1049,8 +2284,20 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html"
   },
   {
+    "title": "AWS::Lightsail::Distribution",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-distribution.html"
+  },
+  {
     "title": "AWS::Lightsail::Instance",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html"
+  },
+  {
+    "title": "AWS::Lightsail::LoadBalancer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancer.html"
+  },
+  {
+    "title": "AWS::Lightsail::LoadBalancerTlsCertificate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html"
   },
   {
     "title": "AWS::Lightsail::StaticIp",
@@ -1081,8 +2328,20 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-trackerconsumer.html"
   },
   {
+    "title": "AWS::Logs::Destination",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-destination.html"
+  },
+  {
     "title": "AWS::Logs::LogGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-loggroup.html"
+  },
+  {
+    "title": "AWS::Logs::LogStream",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-logstream.html"
+  },
+  {
+    "title": "AWS::Logs::MetricFilter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html"
   },
   {
     "title": "AWS::Logs::QueryDefinition",
@@ -1091,6 +2350,14 @@
   {
     "title": "AWS::Logs::ResourcePolicy",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-resourcepolicy.html"
+  },
+  {
+    "title": "AWS::Logs::SubscriptionFilter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-subscriptionfilter.html"
+  },
+  {
+    "title": "AWS::LookoutEquipment::InferenceScheduler",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html"
   },
   {
     "title": "AWS::LookoutMetrics::Alert",
@@ -1103,6 +2370,10 @@
   {
     "title": "AWS::LookoutVision::Project",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutvision-project.html"
+  },
+  {
+    "title": "AWS::MSK::Cluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html"
   },
   {
     "title": "AWS::MWAA::Environment",
@@ -1119,6 +2390,14 @@
   {
     "title": "AWS::Macie::Session",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-session.html"
+  },
+  {
+    "title": "AWS::ManagedBlockchain::Member",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-member.html"
+  },
+  {
+    "title": "AWS::ManagedBlockchain::Node",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-node.html"
   },
   {
     "title": "AWS::MediaConnect::Flow",
@@ -1141,6 +2420,30 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html"
   },
   {
+    "title": "AWS::MediaConvert::JobTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html"
+  },
+  {
+    "title": "AWS::MediaConvert::Preset",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-preset.html"
+  },
+  {
+    "title": "AWS::MediaConvert::Queue",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-queue.html"
+  },
+  {
+    "title": "AWS::MediaLive::Channel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html"
+  },
+  {
+    "title": "AWS::MediaLive::Input",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html"
+  },
+  {
+    "title": "AWS::MediaLive::InputSecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-inputsecuritygroup.html"
+  },
+  {
     "title": "AWS::MediaPackage::Asset",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html"
   },
@@ -1161,6 +2464,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html"
   },
   {
+    "title": "AWS::MediaStore::Container",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html"
+  },
+  {
     "title": "AWS::MemoryDB::ACL",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html"
   },
@@ -1179,6 +2486,26 @@
   {
     "title": "AWS::MemoryDB::User",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html"
+  },
+  {
+    "title": "AWS::Neptune::DBCluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html"
+  },
+  {
+    "title": "AWS::Neptune::DBClusterParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbclusterparametergroup.html"
+  },
+  {
+    "title": "AWS::Neptune::DBInstance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbinstance.html"
+  },
+  {
+    "title": "AWS::Neptune::DBParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbparametergroup.html"
+  },
+  {
+    "title": "AWS::Neptune::DBSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbsubnetgroup.html"
   },
   {
     "title": "AWS::NetworkFirewall::Firewall",
@@ -1245,6 +2572,34 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opensearchservice-domain.html"
   },
   {
+    "title": "AWS::OpsWorks::App",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html"
+  },
+  {
+    "title": "AWS::OpsWorks::ElasticLoadBalancerAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-elbattachment.html"
+  },
+  {
+    "title": "AWS::OpsWorks::Instance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html"
+  },
+  {
+    "title": "AWS::OpsWorks::Layer",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html"
+  },
+  {
+    "title": "AWS::OpsWorks::Stack",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html"
+  },
+  {
+    "title": "AWS::OpsWorks::UserProfile",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-userprofile.html"
+  },
+  {
+    "title": "AWS::OpsWorks::Volume",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-volume.html"
+  },
+  {
     "title": "AWS::OpsWorksCM::Server",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworkscm-server.html"
   },
@@ -1261,8 +2616,100 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html"
   },
   {
+    "title": "AWS::Pinpoint::ADMChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-admchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::APNSChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-apnschannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::APNSSandboxChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-apnssandboxchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::APNSVoipChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-apnsvoipchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::APNSVoipSandboxChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-apnsvoipsandboxchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::App",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-app.html"
+  },
+  {
+    "title": "AWS::Pinpoint::ApplicationSettings",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html"
+  },
+  {
+    "title": "AWS::Pinpoint::BaiduChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-baiduchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::Campaign",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html"
+  },
+  {
+    "title": "AWS::Pinpoint::EmailChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailchannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::EmailTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html"
+  },
+  {
+    "title": "AWS::Pinpoint::EventStream",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-eventstream.html"
+  },
+  {
+    "title": "AWS::Pinpoint::GCMChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-gcmchannel.html"
+  },
+  {
     "title": "AWS::Pinpoint::InAppTemplate",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-inapptemplate.html"
+  },
+  {
+    "title": "AWS::Pinpoint::PushTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html"
+  },
+  {
+    "title": "AWS::Pinpoint::SMSChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smschannel.html"
+  },
+  {
+    "title": "AWS::Pinpoint::Segment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html"
+  },
+  {
+    "title": "AWS::Pinpoint::SmsTemplate",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smstemplate.html"
+  },
+  {
+    "title": "AWS::Pinpoint::VoiceChannel",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-voicechannel.html"
+  },
+  {
+    "title": "AWS::PinpointEmail::ConfigurationSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html"
+  },
+  {
+    "title": "AWS::PinpointEmail::ConfigurationSetEventDestination",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationseteventdestination.html"
+  },
+  {
+    "title": "AWS::PinpointEmail::DedicatedIpPool",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-dedicatedippool.html"
+  },
+  {
+    "title": "AWS::PinpointEmail::Identity",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-identity.html"
+  },
+  {
+    "title": "AWS::QLDB::Ledger",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-ledger.html"
   },
   {
     "title": "AWS::QLDB::Stream",
@@ -1293,6 +2740,26 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-theme.html"
   },
   {
+    "title": "AWS::RAM::ResourceShare",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html"
+  },
+  {
+    "title": "AWS::RDS::DBCluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html"
+  },
+  {
+    "title": "AWS::RDS::DBClusterParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbclusterparametergroup.html"
+  },
+  {
+    "title": "AWS::RDS::DBInstance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html"
+  },
+  {
+    "title": "AWS::RDS::DBParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html"
+  },
+  {
     "title": "AWS::RDS::DBProxy",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html"
   },
@@ -1305,12 +2772,52 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html"
   },
   {
+    "title": "AWS::RDS::DBSecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html"
+  },
+  {
+    "title": "AWS::RDS::DBSecurityGroupIngress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-security-group-ingress.html"
+  },
+  {
+    "title": "AWS::RDS::DBSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html"
+  },
+  {
+    "title": "AWS::RDS::EventSubscription",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-eventsubscription.html"
+  },
+  {
     "title": "AWS::RDS::GlobalCluster",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html"
   },
   {
+    "title": "AWS::RDS::OptionGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html"
+  },
+  {
+    "title": "AWS::RUM::AppMonitor",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rum-appmonitor.html"
+  },
+  {
     "title": "AWS::Redshift::Cluster",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html"
+  },
+  {
+    "title": "AWS::Redshift::ClusterParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html"
+  },
+  {
+    "title": "AWS::Redshift::ClusterSecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroup.html"
+  },
+  {
+    "title": "AWS::Redshift::ClusterSecurityGroupIngress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroupingress.html"
+  },
+  {
+    "title": "AWS::Redshift::ClusterSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html"
   },
   {
     "title": "AWS::Redshift::EndpointAccess",
@@ -1329,8 +2836,36 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-scheduledaction.html"
   },
   {
+    "title": "AWS::RefactorSpaces::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-application.html"
+  },
+  {
+    "title": "AWS::RefactorSpaces::Environment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-environment.html"
+  },
+  {
+    "title": "AWS::RefactorSpaces::Route",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-route.html"
+  },
+  {
+    "title": "AWS::RefactorSpaces::Service",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-refactorspaces-service.html"
+  },
+  {
+    "title": "AWS::Rekognition::Collection",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rekognition-collection.html"
+  },
+  {
     "title": "AWS::Rekognition::Project",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rekognition-project.html"
+  },
+  {
+    "title": "AWS::ResilienceHub::App",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resiliencehub-app.html"
+  },
+  {
+    "title": "AWS::ResilienceHub::ResiliencyPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resiliencehub-resiliencypolicy.html"
   },
   {
     "title": "AWS::ResourceGroups::Group",
@@ -1343,6 +2878,10 @@
   {
     "title": "AWS::RoboMaker::Robot",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robot.html"
+  },
+  {
+    "title": "AWS::RoboMaker::RobotApplication",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html"
   },
   {
     "title": "AWS::RoboMaker::RobotApplicationVersion",
@@ -1371,6 +2910,14 @@
   {
     "title": "AWS::Route53::KeySigningKey",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-keysigningkey.html"
+  },
+  {
+    "title": "AWS::Route53::RecordSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html"
+  },
+  {
+    "title": "AWS::Route53::RecordSetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-recordsetgroup.html"
   },
   {
     "title": "AWS::Route53RecoveryControl::Cluster",
@@ -1425,6 +2972,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverdnssecconfig.html"
   },
   {
+    "title": "AWS::Route53Resolver::ResolverEndpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverendpoint.html"
+  },
+  {
     "title": "AWS::Route53Resolver::ResolverQueryLoggingConfig",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverqueryloggingconfig.html"
   },
@@ -1437,12 +2988,20 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html"
   },
   {
+    "title": "AWS::Route53Resolver::ResolverRuleAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverruleassociation.html"
+  },
+  {
     "title": "AWS::S3::AccessPoint",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html"
   },
   {
     "title": "AWS::S3::Bucket",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket.html"
+  },
+  {
+    "title": "AWS::S3::BucketPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html"
   },
   {
     "title": "AWS::S3::MultiRegionAccessPoint",
@@ -1481,12 +3040,56 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-endpoint.html"
   },
   {
+    "title": "AWS::SDB::Domain",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-simpledb.html"
+  },
+  {
     "title": "AWS::SES::ConfigurationSet",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-configurationset.html"
   },
   {
+    "title": "AWS::SES::ConfigurationSetEventDestination",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-configurationseteventdestination.html"
+  },
+  {
     "title": "AWS::SES::ContactList",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-contactlist.html"
+  },
+  {
+    "title": "AWS::SES::ReceiptFilter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptfilter.html"
+  },
+  {
+    "title": "AWS::SES::ReceiptRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptrule.html"
+  },
+  {
+    "title": "AWS::SES::ReceiptRuleSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptruleset.html"
+  },
+  {
+    "title": "AWS::SES::Template",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-template.html"
+  },
+  {
+    "title": "AWS::SNS::Subscription",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html"
+  },
+  {
+    "title": "AWS::SNS::Topic",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html"
+  },
+  {
+    "title": "AWS::SNS::TopicPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-policy.html"
+  },
+  {
+    "title": "AWS::SQS::Queue",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queue.html"
+  },
+  {
+    "title": "AWS::SQS::QueuePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html"
   },
   {
     "title": "AWS::SSM::Association",
@@ -1495,6 +3098,26 @@
   {
     "title": "AWS::SSM::Document",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html"
+  },
+  {
+    "title": "AWS::SSM::MaintenanceWindow",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindow.html"
+  },
+  {
+    "title": "AWS::SSM::MaintenanceWindowTarget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindowtarget.html"
+  },
+  {
+    "title": "AWS::SSM::MaintenanceWindowTask",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindowtask.html"
+  },
+  {
+    "title": "AWS::SSM::Parameter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-parameter.html"
+  },
+  {
+    "title": "AWS::SSM::PatchBaseline",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-patchbaseline.html"
   },
   {
     "title": "AWS::SSM::ResourceDataSync",
@@ -1537,6 +3160,10 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html"
   },
   {
+    "title": "AWS::SageMaker::CodeRepository",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html"
+  },
+  {
     "title": "AWS::SageMaker::DataQualityJobDefinition",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html"
   },
@@ -1553,6 +3180,14 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html"
   },
   {
+    "title": "AWS::SageMaker::Endpoint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html"
+  },
+  {
+    "title": "AWS::SageMaker::EndpointConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html"
+  },
+  {
     "title": "AWS::SageMaker::FeatureGroup",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html"
   },
@@ -1563,6 +3198,10 @@
   {
     "title": "AWS::SageMaker::ImageVersion",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-imageversion.html"
+  },
+  {
+    "title": "AWS::SageMaker::Model",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html"
   },
   {
     "title": "AWS::SageMaker::ModelBiasJobDefinition",
@@ -1585,6 +3224,14 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html"
   },
   {
+    "title": "AWS::SageMaker::NotebookInstance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html"
+  },
+  {
+    "title": "AWS::SageMaker::NotebookInstanceLifecycleConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstancelifecycleconfig.html"
+  },
+  {
     "title": "AWS::SageMaker::Pipeline",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html"
   },
@@ -1597,8 +3244,72 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html"
   },
   {
+    "title": "AWS::SageMaker::Workteam",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html"
+  },
+  {
+    "title": "AWS::SecretsManager::ResourcePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-resourcepolicy.html"
+  },
+  {
+    "title": "AWS::SecretsManager::RotationSchedule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-rotationschedule.html"
+  },
+  {
+    "title": "AWS::SecretsManager::Secret",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html"
+  },
+  {
+    "title": "AWS::SecretsManager::SecretTargetAttachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secrettargetattachment.html"
+  },
+  {
+    "title": "AWS::SecurityHub::Hub",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-securityhub-hub.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::AcceptedPortfolioShare",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-acceptedportfolioshare.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::CloudFormationProduct",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html"
+  },
+  {
     "title": "AWS::ServiceCatalog::CloudFormationProvisionedProduct",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::LaunchNotificationConstraint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::LaunchRoleConstraint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchroleconstraint.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::LaunchTemplateConstraint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchtemplateconstraint.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::Portfolio",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::PortfolioPrincipalAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolioprincipalassociation.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::PortfolioProductAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolioproductassociation.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::PortfolioShare",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolioshare.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::ResourceUpdateConstraint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-resourceupdateconstraint.html"
   },
   {
     "title": "AWS::ServiceCatalog::ServiceAction",
@@ -1607,6 +3318,18 @@
   {
     "title": "AWS::ServiceCatalog::ServiceActionAssociation",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-serviceactionassociation.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::StackSetConstraint",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::TagOption",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-tagoption.html"
+  },
+  {
+    "title": "AWS::ServiceCatalog::TagOptionAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-tagoptionassociation.html"
   },
   {
     "title": "AWS::ServiceCatalogAppRegistry::Application",
@@ -1623,6 +3346,26 @@
   {
     "title": "AWS::ServiceCatalogAppRegistry::ResourceAssociation",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-resourceassociation.html"
+  },
+  {
+    "title": "AWS::ServiceDiscovery::HttpNamespace",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-httpnamespace.html"
+  },
+  {
+    "title": "AWS::ServiceDiscovery::Instance",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html"
+  },
+  {
+    "title": "AWS::ServiceDiscovery::PrivateDnsNamespace",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html"
+  },
+  {
+    "title": "AWS::ServiceDiscovery::PublicDnsNamespace",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-publicdnsnamespace.html"
+  },
+  {
+    "title": "AWS::ServiceDiscovery::Service",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html"
   },
   {
     "title": "AWS::Signer::ProfilePermission",
@@ -1649,8 +3392,96 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-database.html"
   },
   {
+    "title": "AWS::Timestream::ScheduledQuery",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-scheduledquery.html"
+  },
+  {
     "title": "AWS::Timestream::Table",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html"
+  },
+  {
+    "title": "AWS::Transfer::Server",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html"
+  },
+  {
+    "title": "AWS::Transfer::User",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html"
+  },
+  {
+    "title": "AWS::Transfer::Workflow",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-workflow.html"
+  },
+  {
+    "title": "AWS::WAF::ByteMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-bytematchset.html"
+  },
+  {
+    "title": "AWS::WAF::IPSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-ipset.html"
+  },
+  {
+    "title": "AWS::WAF::Rule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-rule.html"
+  },
+  {
+    "title": "AWS::WAF::SizeConstraintSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-sizeconstraintset.html"
+  },
+  {
+    "title": "AWS::WAF::SqlInjectionMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-sqlinjectionmatchset.html"
+  },
+  {
+    "title": "AWS::WAF::WebACL",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html"
+  },
+  {
+    "title": "AWS::WAF::XssMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-xssmatchset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::ByteMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-bytematchset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::GeoMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-geomatchset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::IPSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ipset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::RateBasedRule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ratebasedrule.html"
+  },
+  {
+    "title": "AWS::WAFRegional::RegexPatternSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-regexpatternset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::Rule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-rule.html"
+  },
+  {
+    "title": "AWS::WAFRegional::SizeConstraintSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sizeconstraintset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::SqlInjectionMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sqlinjectionmatchset.html"
+  },
+  {
+    "title": "AWS::WAFRegional::WebACL",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-webacl.html"
+  },
+  {
+    "title": "AWS::WAFRegional::WebACLAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-webaclassociation.html"
+  },
+  {
+    "title": "AWS::WAFRegional::XssMatchSet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-xssmatchset.html"
   },
   {
     "title": "AWS::WAFv2::IPSet",
@@ -1693,11 +3524,19 @@
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-connectionalias.html"
   },
   {
+    "title": "AWS::WorkSpaces::Workspace",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html"
+  },
+  {
     "title": "AWS::XRay::Group",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html"
   },
   {
     "title": "AWS::XRay::SamplingRule",
     "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html"
+  },
+  {
+    "title": "Alexa::ASK::Skill",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-skill.html"
   }
 ]
