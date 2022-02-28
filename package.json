@@ -1,0 +1,17 @@
+{
+  "name": "alfred-search-cloudformation",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "make.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "node make.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.12.2"
+  }
+}
